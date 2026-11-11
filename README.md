@@ -26,7 +26,7 @@ The first working baseline uses SPARROW-Engine on a Google Colab CPU runtime. Si
 
 [Open the image review notebook in Colab](https://colab.research.google.com/github/Shreyakb301/WildPulse/blob/main/WildPulse_Image_Review.ipynb). Run setup, upload JPEG or PNG images, detect, and download the ZIP. Each batch has a fresh output directory. The ZIP contains previews, JSON and CSV, and excludes original uploads. Confidence 0.5 is a review default, not a deployment recommendation.
 
-The new workflow passed isolated checks with a simulated detector, including unreadable files, matching filenames with different extensions and output reuse. Its notebook has been syntax-checked for Python 3.11. A full live Colab upload-to-download run of this new notebook is still pending; the underlying detector already ran successfully in the baseline and evaluation work.
+The new workflow passed isolated checks with a simulated detector, including unreadable files, matching filenames with different extensions and output reuse. Its notebook has been syntax-checked for Python 3.11. Fresh Colab setup, real inference on one public example, preview generation and direct ZIP export were verified. The exported ZIP passed SHA256 and CRC checks locally. Automated file-picker upload and standard browser download were not confirmed; a direct link fallback is included for bundles up to 20 MB.
 
 For an installed local environment:
 
