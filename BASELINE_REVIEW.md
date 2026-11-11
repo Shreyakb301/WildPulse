@@ -2,7 +2,7 @@
 
 ## Verified artifact
 
-The Colab result archive was recovered locally on November 10, 2026. Its SHA256 matches the value printed in the runtime:
+The Colab result archive was recovered locally in Trial 1. Its SHA256 matches the value printed in the runtime:
 
 ```text
 9a6941733d08effee20c5b87976edfdf6ae796ec7c6a09220b9af8621fa83180

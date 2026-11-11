@@ -4,6 +4,14 @@ WildPulse is a camera-trap wildlife detection project. It runs MegaDetector on a
 
 The first working baseline uses SPARROW-Engine on a Google Colab CPU runtime. Six images have been processed successfully. This is the starting point for reviewing detections and measuring performance on a larger dataset.
 
+## Detection previews
+
+Real model outputs from Trial 5 at confidence 0.5. Green boxes show predicted animal locations, including small, partly hidden and grouped subjects.
+
+![WildPulse detection previews for six images](assets/detection_examples.jpg)
+
+These previews show image detection. Identity tracking between frames is not implemented. Overlapping boxes in group photos are not verified animal counts, and confidence scores are not accuracy measurements.
+
 ## What it does
 
 - **Processes each image independently.** Every image gets its own detection record and wall-clock timing.
@@ -67,7 +75,7 @@ Image files and model weights are not included in this repository. The standalon
 
 ## Baseline results
 
-Observed on November 10, 2026, using CPU inference and a confidence threshold of `0.2`:
+Observed in Trial 1 using CPU inference and a confidence threshold of `0.2`:
 
 | Image | Predictions | Wall time |
 | --- | --- | ---: |
@@ -104,4 +112,4 @@ The notebook saved JSON, CSV, six previews, a contact sheet, and a result ZIP. T
 
 See [BASELINE_REVIEW.md](BASELINE_REVIEW.md) for the visual review, conflicting labels, overlapping boxes, and a comparison of confidence thresholds. The original 0.2 baseline is preserved.
 
-See [PROJECT_LOG.md](PROJECT_LOG.md) for the work record and [PROJECT_NOTES.md](PROJECT_NOTES.md) for current decisions and next steps.
+See [PROJECT_NOTES.md](PROJECT_NOTES.md) for the trial record, current decisions and next steps. The detailed project log stays local.

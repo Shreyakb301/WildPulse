@@ -10,7 +10,7 @@ Score animal presence per complete sequence using the maximum animal score acros
 
 ## Sampling
 
-Pin metadata SHA256 `380dbab5598e1468f74c8dd19e59c0424d61f6f26532a85a7a0a757b8c87de21` and seed `wildpulse-enonkishu-transfer-2026-11-11`. Rank sequences by a deterministic hash, then take one sequence per camera in each class before repeating cameras. Select 15 per class before inference; do not replace difficult examples after seeing predictions.
+Pin metadata SHA256 `380dbab5598e1468f74c8dd19e59c0424d61f6f26532a85a7a0a757b8c87de21` and the fixed seed recorded in `enonkishu_config.json`. Rank sequences by a deterministic hash, then take one sequence per camera in each class before repeating cameras. Select 15 per class before inference; do not replace difficult examples after seeing predictions.
 
 The dataset has 16 camera locations. This is a balanced sample, not its natural class prevalence. Repeated cameras across the positive and negative groups remain a source of dependence; this is not a 30-independent-camera test.
 

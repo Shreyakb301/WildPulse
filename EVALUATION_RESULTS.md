@@ -1,6 +1,6 @@
 # WildPulse pilot results
 
-Completed on November 10, 2026: 20 complete Snapshot Kruger sequences, 42 images, 15 camera locations. Ten sequences are labeled animal and ten empty. The animal group covers four species labels. See [EVALUATION.md](EVALUATION.md) for the protocol and [evaluation_manifest.json](evaluation_manifest.json) for the exact sample.
+Trial 2 completed: 20 complete Snapshot Kruger sequences, 42 images, 15 camera locations. Ten sequences are labeled animal and ten empty. The animal group covers four species labels. See [EVALUATION.md](EVALUATION.md) for the protocol and [evaluation_manifest.json](evaluation_manifest.json) for the exact sample.
 
 ## Results against supplied labels
 

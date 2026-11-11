@@ -10,7 +10,7 @@ This pilot tests whether MegaDetector finds an animal anywhere in a complete cam
 
 - Snapshot Kruger Season 1 metadata, SHA256 `3a90de11592822817c61f384df4732b3e9f17903593ed6b48ef15d1f6a5f1f9a`.
 - Twenty complete sequences: ten labeled animal and ten labeled empty, totaling 42 images.
-- Deterministic hash ordering with seed `wildpulse-pilot-2026-11-10` before inference.
+- Deterministic hash ordering with the fixed seed recorded in `evaluate_sequences.py` before inference.
 - Human-labeled, corrupt, incomplete, mixed empty/animal, and original six-example sequences excluded.
 - Downloaded only selected images from the official public cloud folder. Images remain outside Git.
 
