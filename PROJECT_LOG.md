@@ -106,3 +106,5 @@ These are local workspace notes. No claim is made that they are saved to Google 
 - Added NEW_SITE_RESULTS.md, enonkishu_manifest.json and README summary. Images and runtime bundles excluded from Git.
 
 2026-11-11: Reviewed all six original frames in the four Enonkishu primary-threshold disagreements. Two likely label disagreements (D02 90, B06 230), one likely foreground-obstruction false alarm (D06 1317, three frames), and one unresolved blur/glare case (B02 259). Observational review only; original labels and metrics unchanged. Images retained locally outside Git.
+
+2026-11-11: Added run_images.py and WildPulse_Image_Review.ipynb for JPEG/PNG upload, preview and ZIP download. Unique output folders prevent stale exports; unreadable files are recorded, unexpected inference errors stop execution. Isolated simulated-detector checks passed for two valid images, one unreadable image, colliding stems, ZIP contents/integrity and output reuse rejection. Notebook code syntax checked for Python 3.11. New notebook live Colab upload/download verification remains pending; no new real inference claimed.

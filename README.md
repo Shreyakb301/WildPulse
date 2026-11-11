@@ -22,6 +22,18 @@ The first working baseline uses SPARROW-Engine on a Google Colab CPU runtime. Si
 
 ## Setup
 
+### Review your own images
+
+[Open the image review notebook in Colab](https://colab.research.google.com/github/Shreyakb301/WildPulse/blob/main/WildPulse_Image_Review.ipynb). Run setup, upload JPEG or PNG images, detect, and download the ZIP. Each batch has a fresh output directory. The ZIP contains previews, JSON and CSV, and excludes original uploads. Confidence 0.5 is a review default, not a deployment recommendation.
+
+The new workflow passed isolated checks with a simulated detector, including unreadable files, matching filenames with different extensions and output reuse. Its notebook has been syntax-checked for Python 3.11. A full live Colab upload-to-download run of this new notebook is still pending; the underlying detector already ran successfully in the baseline and evaluation work.
+
+For an installed local environment:
+
+```bash
+python run_images.py /path/to/images /path/to/new_output --threshold 0.5
+```
+
 ### Run in Google Colab
 
 Place the project files under `/content/WildPulse` and upload the six JPEG images into `/content/WildPulse/sample_images`.
