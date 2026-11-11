@@ -9,6 +9,7 @@ venv/
 .ipynb_checkpoints/
 sample_images/
 baseline_output/
+evaluation/
 *.zip
 *.onnx
 *.pt

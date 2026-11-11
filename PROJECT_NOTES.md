@@ -26,6 +26,8 @@
 
 ## Latest verified state
 
+- Labeled pilot underway: 20 complete Snapshot Kruger sequences (10 animal, 10 empty), 42 images. See EVALUATION.md and evaluate_sequences.py. Score presence per sequence, not per frame. Results pending.
+
 - Result recovery is now complete. Local `WildPulse_baseline_results.zip` matches Colab's SHA256 and passes ZIP CRC checks. Extracted files are in ignored `baseline_output/`.
 - SHA256: `9a6941733d08effee20c5b87976edfdf6ae796ec7c6a09220b9af8621fa83180`.
 - BASELINE_REVIEW.md records visual review and saved-prediction threshold filtering. Preserve the 0.2 baseline; an operational threshold has not been selected.

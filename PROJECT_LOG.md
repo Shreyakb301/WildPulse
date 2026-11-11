@@ -1,5 +1,14 @@
 # WildPulse project log
 
+## 2026-11-10 — Labeled sequence pilot setup
+
+- Verified official Snapshot Kruger documentation: labels are reliable at sequence level, not necessarily for individual frames. Chose sequence-level animal presence evaluation.
+- Downloaded metadata in Colab and pinned SHA256 `3a90de11592822817c61f384df4732b3e9f17903593ed6b48ef15d1f6a5f1f9a`. Metadata contains 10,604 image records, including human-labeled records whose images are not publicly released.
+- Added evaluate_sequences.py with deterministic balanced sampling, complete-sequence checks, original-example exclusions, image validation, per-sequence progress output, and fixed-threshold scoring. Verified scoring against known TP/FP/TN/FN outcomes locally.
+- Prepared 20 complete sequences and downloaded 42 images in Colab: 10 empty sequences and 10 animal sequences, with animal labels steenbok, elephant, spotted hyena, and impala.
+- Started CPU inference with the existing MDV6-yolov10-e model. First three sequences completed successfully; full results pending at this setup entry.
+- Added EVALUATION.md describing the method and limits. Evaluation images and generated outputs are ignored by Git.
+
 ## 2026-11-10 — Result recovery and review
 
 - Continued in the user's in-app Colab browser. The runtime and result archive were still present.
