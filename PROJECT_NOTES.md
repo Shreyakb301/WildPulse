@@ -45,3 +45,5 @@
 - Next: obtain ground-truth labels for a larger, varied image set before calculating accuracy or choosing a production threshold.
 
 - Enonkishu completed file recovered and validated locally. Four dataset-label disagreements reviewed; apparent animals in two empty-labeled frames. Preserve supplied labels until expert sequence review. Checkpoint wrapper recursion failure excluded; do not rerun that helper unchanged.
+
+2026-11-11: Reviewed all six original frames in the four Enonkishu primary-threshold disagreements. Two likely label disagreements (D02 90, B06 230), one likely foreground-obstruction false alarm (D06 1317, three frames), and one unresolved blur/glare case (B02 259). Observational review only; original labels and metrics unchanged. Images retained locally outside Git.

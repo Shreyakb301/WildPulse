@@ -104,3 +104,5 @@ These are local workspace notes. No claim is made that they are saved to Google 
 - Primary 0.5: TP15 FP4 TN11 FN0, relative to supplied labels. Reviewed four disagreement frames; two appear to contain animals despite empty labels. No relabeling.
 - Saved local ZIP (1327770 bytes), SHA256 b929038a88dab0101f94d04a53ef78851882370bd471184c982235002aa4e1a4; integrity and prediction equality passed.
 - Added NEW_SITE_RESULTS.md, enonkishu_manifest.json and README summary. Images and runtime bundles excluded from Git.
+
+2026-11-11: Reviewed all six original frames in the four Enonkishu primary-threshold disagreements. Two likely label disagreements (D02 90, B06 230), one likely foreground-obstruction false alarm (D06 1317, three frames), and one unresolved blur/glare case (B02 259). Observational review only; original labels and metrics unchanged. Images retained locally outside Git.

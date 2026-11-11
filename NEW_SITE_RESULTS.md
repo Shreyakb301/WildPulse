@@ -39,3 +39,14 @@ Local bundle `WildPulse_enonkishu_results.zip` contains manifest, predictions, f
 This balanced, small sample does not estimate natural-prevalence precision, species accuracy or box localization accuracy. Cameras repeat across classes. Enonkishu is separate from the Kruger pilot, but model training overlap is unknown. Domestic animals count as animals.
 
 Colab disconnected and diagnostics on the replacement session initially found no temporary files. Preparation was restored. A checkpoint wrapper later failed with recursion after being executed again; that failed attempt is excluded. On reconnect the notebook showed a complete earlier evaluation and a full final file was present. The exported completed file is the basis of this report; saved-output history does not establish exactly when every backend execution occurred. No predictions from the failed attempt were merged into the final report.
+
+## Complete sequence review
+
+Reviewed all six original frames across the four flagged sequences, downloaded from the manifest image source without rerunning inference. Three frames belong to D06; the other sequences contain one frame each. Original images and review sheets are saved locally under ignored `evaluation_enonkishu/sequence_review/`.
+
+- **D06 1317:** the same blurred foreground obstruction persists across IMAG3925–3927. No clearly identifiable animal is visible; likely obstruction-related false alarm, with visual uncertainty retained.
+- **D02 90:** IMAG0152 shows an apparent large animal body and legs in the overexposed right foreground. Likely dataset-label disagreement. Species unassigned.
+- **B02 259:** IMAG0659 is dominated by blur and saturated foreground light. Animal presence remains unresolved.
+- **B06 230:** IMAG0434 shows an apparent antelope-shaped animal at the right. Likely dataset-label disagreement. Species unassigned.
+
+These are agent visual observations, not independently adjudicated ground truth. No labels, predictions, thresholds or benchmark metrics were changed. An expert should adjudicate the two likely label disagreements and two uncertain/likely obstruction cases before publishing corrected accuracy.
