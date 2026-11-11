@@ -78,6 +78,8 @@ The initial images came from [Snapshot Kruger on LILA BC](https://lila.science/d
 
 PytorchWildlife 1.3.1 installed but failed to import because of a Hugging Face dependency conflict. The working baseline uses SPARROW-Engine. A Pillow JPEG-writing error was resolved by saving previews through OpenCV.
 
-The notebook saved JSON, CSV, six previews, a contact sheet, and a result ZIP. A local download of that ZIP has not been confirmed because Colab's browser session encountered output-loading and reCAPTCHA connection errors. The generated artifacts are not included here.
+The notebook saved JSON, CSV, six previews, a contact sheet, and a result ZIP. The ZIP has now been recovered locally, checked against Colab's SHA256, and verified for archive integrity. The generated images and archive are not included here.
+
+See [BASELINE_REVIEW.md](BASELINE_REVIEW.md) for the visual review, conflicting labels, overlapping boxes, and a comparison of confidence thresholds. The original 0.2 baseline is preserved.
 
 See [PROJECT_LOG.md](PROJECT_LOG.md) for the work record and [PROJECT_NOTES.md](PROJECT_NOTES.md) for current decisions and next steps.

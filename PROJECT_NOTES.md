@@ -23,3 +23,11 @@
 - Runtime logs were written and included in the bundle. Local logs are more detailed and separate.
 - Colab's output JavaScript loading issue has blocked preview display and bundle download so far; no local result archive has been claimed.
 - Reload restored previews; both rows were visually inspected. Download is still unconfirmed (reCAPTCHA service connection issue), and the subsequent media export timed out. Notebook results were saved and persisted across reload.
+
+## Latest verified state
+
+- Result recovery is now complete. Local `WildPulse_baseline_results.zip` matches Colab's SHA256 and passes ZIP CRC checks. Extracted files are in ignored `baseline_output/`.
+- SHA256: `9a6941733d08effee20c5b87976edfdf6ae796ec7c6a09220b9af8621fa83180`.
+- BASELINE_REVIEW.md records visual review and saved-prediction threshold filtering. Preserve the 0.2 baseline; an operational threshold has not been selected.
+- The person and animal predictions on IMAG0031 use identical boxes at the frame edge. Person presence is not visually established. IMAG0043 contains overlapping low-confidence boxes, not two verified animals.
+- Next: obtain ground-truth labels for a larger, varied image set before calculating accuracy or choosing a production threshold.

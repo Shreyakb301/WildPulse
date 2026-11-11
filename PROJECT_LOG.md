@@ -1,5 +1,14 @@
 # WildPulse project log
 
+## 2026-11-10 — Result recovery and review
+
+- Continued in the user's in-app Colab browser. The runtime and result archive were still present.
+- Files-panel download did not yield a confirmed browser download. Added a normal notebook export link containing the existing archive and printed its SHA256. The media-download helper failed and the browser reconnected; recovered the archive from the rendered link through a read-only DOM attribute instead.
+- Saved `WildPulse_baseline_results.zip` locally, matched SHA256 `9a6941733d08effee20c5b87976edfdf6ae796ec7c6a09220b9af8621fa83180`, passed ZIP CRC checks, and extracted six records plus previews into ignored `baseline_output/`.
+- Inspected the contact sheet and full annotated previews for IMAG0031 and IMAG0043. IMAG0031 has identical person/animal boxes at the right edge, indicating conflicting labels for one region. A person is not visually established. IMAG0043 has overlapping animal boxes with IoU 0.6144; do not count these as two verified animals.
+- Filtered existing predictions at thresholds 0.2, 0.3, 0.5, and 0.8 without rerunning inference. Animal box counts were 6, 4, 2, and 2; person counts were 1, 1, 1, and 0. Threshold changes alone do not resolve the conflict.
+- Added BASELINE_REVIEW.md and updated README.md to reflect the verified local archive. Kept raw outputs and images excluded from Git.
+
 ## 2026-11-10 — GitHub setup
 
 - User requested ongoing GitHub pushes and commit messages of three or four words using letters and spaces only. Saved these preferences in AGENTS.md and PROJECT_NOTES.md.
