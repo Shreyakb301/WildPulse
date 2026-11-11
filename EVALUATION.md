@@ -39,4 +39,4 @@ For local execution, pass a local directory such as `--root ./evaluation`. The p
 
 This is a small exploratory sample with deliberately balanced classes, not the dataset's natural prevalence. Precision and accuracy apply to this sample only. Its relationship to the model's training data has not been established, so it is not a known training-disjoint benchmark. The sample covers four animal labels: steenbok, elephant, spotted hyena, and impala, with empty as the negative class; it does not cover all species, seasons, or conditions.
 
-Execution results will be recorded after the full run completes. No pilot accuracy is claimed before then.
+The full run completed on 20 sequences and 42 images. See [EVALUATION_RESULTS.md](EVALUATION_RESULTS.md) for verified metrics, error review, and limitations. The exact sample is recorded in [evaluation_manifest.json](evaluation_manifest.json).

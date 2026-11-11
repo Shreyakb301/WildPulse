@@ -1,5 +1,14 @@
 # WildPulse project log
 
+## 2026-11-10 — Labeled sequence pilot completed
+
+- Finished every selected sequence: 20 sequences, 42 images, 15 camera locations, no skipped frames or reported inference failures.
+- At thresholds 0.2/0.3/0.5/0.8, TP counts were 10/10/10/9, FP counts 5/3/2/2, TN counts 5/7/8/8, and FN counts 0/0/0/1. These are relative to supplied sequence labels.
+- Mean timed inference API call: 14.4964 seconds/image on CPU. Downloads and separate OpenCV image-read validation were outside the timer.
+- Created an error-review contact sheet and six selected annotated frames without rerunning inference. The two high-confidence empty-label false alarms came from camera 14 and boxed a bright lower-left nighttime foreground region; physical cause not established. Kept original labels unchanged.
+- Recovered a local evaluation result bundle, 2,450,144 bytes. SHA256 `10c23bf32fb5378b8d386c745202a3d2066a268a5346a92e137daf385228baac` matched Colab and ZIP integrity checks passed. Recomputed all metrics from exported predictions and verified complete frame membership.
+- Added EVALUATION_RESULTS.md and the exact public-source sample manifest. No production threshold selected. Images, archive, and raw predictions remain ignored by Git.
+
 ## 2026-11-10 — Labeled sequence pilot setup
 
 - Verified official Snapshot Kruger documentation: labels are reliable at sequence level, not necessarily for individual frames. Chose sequence-level animal presence evaluation.

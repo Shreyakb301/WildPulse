@@ -1,0 +1,233 @@
+{
+  "dataset": "Snapshot Kruger S1",
+  "source": "https://lilawildlife.blob.core.windows.net/lila-wildlife/snapshot-safari/KRU/SnapshotKruger_S1_v1.0.json.zip",
+  "metadata_sha256": "3a90de11592822817c61f384df4732b3e9f17903593ed6b48ef15d1f6a5f1f9a",
+  "seed": "wildpulse-pilot-2026-11-10",
+  "per_class": 10,
+  "available_empty": 2913,
+  "available_animal": 1653,
+  "sequences": [
+    {
+      "seq_id": "KRU_S1#8#1#229",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/8/8_R1/KRU_S1_8_R1_IMAG0661.JPG",
+        "KRU_S1/8/8_R1/KRU_S1_8_R1_IMAG0662.JPG",
+        "KRU_S1/8/8_R1/KRU_S1_8_R1_IMAG0663.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#14#1#432",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/14/14_R1/KRU_S1_14_R1_IMAG0628.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#44#1#27",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/44/44_R1/KRU_S1_44_R1_IMAG0049.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#8#1#322",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/8/8_R1/KRU_S1_8_R1_IMAG0936.JPG",
+        "KRU_S1/8/8_R1/KRU_S1_8_R1_IMAG0937.JPG",
+        "KRU_S1/8/8_R1/KRU_S1_8_R1_IMAG0938.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#3#1#390",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/3/3_R1/KRU_S1_3_R1_IMAG1168.JPG",
+        "KRU_S1/3/3_R1/KRU_S1_3_R1_IMAG1169.JPG",
+        "KRU_S1/3/3_R1/KRU_S1_3_R1_IMAG1170.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#27#1#10",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/27/27_R1/KRU_S1_27_R1_IMAG0026.JPG",
+        "KRU_S1/27/27_R1/KRU_S1_27_R1_IMAG0027.JPG",
+        "KRU_S1/27/27_R1/KRU_S1_27_R1_IMAG0028.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#2#1#57",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/2/2_R1/KRU_S1_2_R1_IMAG0115.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#14#1#125",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/14/14_R1/KRU_S1_14_R1_IMAG0135.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#47#1#69",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/47/47_R1/KRU_S1_47_R1_IMAG0161.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#22#1#117",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "KRU_S1/22/22_R1/KRU_S1_22_R1_IMAG0225.JPG",
+        "KRU_S1/22/22_R1/KRU_S1_22_R1_IMAG0226.JPG",
+        "KRU_S1/22/22_R1/KRU_S1_22_R1_IMAG0227.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#43#1#16",
+      "animal_present": true,
+      "labels": [
+        "steenbok"
+      ],
+      "files": [
+        "KRU_S1/43/43_R1/KRU_S1_43_R1_IMAG0030.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#5#1#21",
+      "animal_present": true,
+      "labels": [
+        "elephant"
+      ],
+      "files": [
+        "KRU_S1/5/5_R1/KRU_S1_5_R1_IMAG0035.JPG",
+        "KRU_S1/5/5_R1/KRU_S1_5_R1_IMAG0036.JPG",
+        "KRU_S1/5/5_R1/KRU_S1_5_R1_IMAG0037.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#42#1#22",
+      "animal_present": true,
+      "labels": [
+        "hyenaspotted"
+      ],
+      "files": [
+        "KRU_S1/42/42_R1/KRU_S1_42_R1_IMAG0034.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#44#1#32",
+      "animal_present": true,
+      "labels": [
+        "impala"
+      ],
+      "files": [
+        "KRU_S1/44/44_R1/KRU_S1_44_R1_IMAG0056.JPG",
+        "KRU_S1/44/44_R1/KRU_S1_44_R1_IMAG0057.JPG",
+        "KRU_S1/44/44_R1/KRU_S1_44_R1_IMAG0058.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#27#1#41",
+      "animal_present": true,
+      "labels": [
+        "elephant"
+      ],
+      "files": [
+        "KRU_S1/27/27_R1/KRU_S1_27_R1_IMAG0095.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#17#1#59",
+      "animal_present": true,
+      "labels": [
+        "hyenaspotted"
+      ],
+      "files": [
+        "KRU_S1/17/17_R1/KRU_S1_17_R1_IMAG0117.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#7#1#141",
+      "animal_present": true,
+      "labels": [
+        "impala"
+      ],
+      "files": [
+        "KRU_S1/7/7_R1/KRU_S1_7_R1_IMAG0377.JPG",
+        "KRU_S1/7/7_R1/KRU_S1_7_R1_IMAG0378.JPG",
+        "KRU_S1/7/7_R1/KRU_S1_7_R1_IMAG0379.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#34#1#30",
+      "animal_present": true,
+      "labels": [
+        "impala"
+      ],
+      "files": [
+        "KRU_S1/34/34_R1/KRU_S1_34_R1_IMAG0084.JPG",
+        "KRU_S1/34/34_R1/KRU_S1_34_R1_IMAG0085.JPG",
+        "KRU_S1/34/34_R1/KRU_S1_34_R1_IMAG0086.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#7#1#112",
+      "animal_present": true,
+      "labels": [
+        "impala"
+      ],
+      "files": [
+        "KRU_S1/7/7_R1/KRU_S1_7_R1_IMAG0296.JPG",
+        "KRU_S1/7/7_R1/KRU_S1_7_R1_IMAG0297.JPG",
+        "KRU_S1/7/7_R1/KRU_S1_7_R1_IMAG0298.JPG"
+      ]
+    },
+    {
+      "seq_id": "KRU_S1#49#1#33",
+      "animal_present": true,
+      "labels": [
+        "impala"
+      ],
+      "files": [
+        "KRU_S1/49/49_R1/KRU_S1_49_R1_IMAG0089.JPG",
+        "KRU_S1/49/49_R1/KRU_S1_49_R1_IMAG0090.JPG",
+        "KRU_S1/49/49_R1/KRU_S1_49_R1_IMAG0091.JPG"
+      ]
+    }
+  ]
+}

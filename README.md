@@ -76,6 +76,12 @@ The initial images came from [Snapshot Kruger on LILA BC](https://lila.science/d
 
 ## Engineering record
 
+### Labeled sequence pilot
+
+A follow-up run processed 42 images from 20 complete Snapshot Kruger sequences, split evenly between animal and empty labels. At threshold 0.2, it detected all ten animal-labeled sequences and flagged five empty-labeled sequences. At 0.5, it detected all ten with two false alarms. These are exploratory results against the supplied sequence labels, not a production threshold recommendation.
+
+See [EVALUATION.md](EVALUATION.md) for the reproducible setup and [EVALUATION_RESULTS.md](EVALUATION_RESULTS.md) for the full threshold comparison, reviewed errors, and sampling limits.
+
 PytorchWildlife 1.3.1 installed but failed to import because of a Hugging Face dependency conflict. The working baseline uses SPARROW-Engine. A Pillow JPEG-writing error was resolved by saving previews through OpenCV.
 
 The notebook saved JSON, CSV, six previews, a contact sheet, and a result ZIP. The ZIP has now been recovered locally, checked against Colab's SHA256, and verified for archive integrity. The generated images and archive are not included here.
