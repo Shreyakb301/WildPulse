@@ -26,7 +26,9 @@
 
 ## Latest verified state
 
-- Enonkishu new-site test prepared: 30 sequences (15 animal, 15 empty), 64 images, 16 camera locations. Primary threshold 0.5 fixed before inference. See NEW_SITE_EVALUATION.md. Results pending; model training overlap remains unknown.
+- Enonkishu first run interrupted after 15 visibly completed sequences; replacement runtime lost temporary files. Same-config rerun underway with notebook-visible checkpoint links. Superseded by completed export below.
+
+- Enonkishu new-site test prepared: 30 sequences (15 animal, 15 empty), 64 images, 16 camera locations. Primary threshold 0.5 fixed before inference. See NEW_SITE_EVALUATION.md. Completed export verified: TP15 FP4 TN11 FN0 at primary 0.5. See NEW_SITE_RESULTS.md; model training overlap remains unknown.
 
 - Additional six-frame visual set: `evaluation/more_examples/another_example_set.jpg`; individual panels `example_1.jpg` through `example_6.jpg`. Uses existing pilot predictions, not a fresh benchmark.
 
@@ -41,3 +43,5 @@
 - BASELINE_REVIEW.md records visual review and saved-prediction threshold filtering. Preserve the 0.2 baseline; an operational threshold has not been selected.
 - The person and animal predictions on IMAG0031 use identical boxes at the frame edge. Person presence is not visually established. IMAG0043 contains overlapping low-confidence boxes, not two verified animals.
 - Next: obtain ground-truth labels for a larger, varied image set before calculating accuracy or choosing a production threshold.
+
+- Enonkishu completed file recovered and validated locally. Four dataset-label disagreements reviewed; apparent animals in two empty-labeled frames. Preserve supplied labels until expert sequence review. Checkpoint wrapper recursion failure excluded; do not rerun that helper unchanged.

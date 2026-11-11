@@ -76,6 +76,10 @@ The initial images came from [Snapshot Kruger on LILA BC](https://lila.science/d
 
 ## Engineering record
 
+### New site evaluation
+
+A separate Snapshot Enonkishu sample completed 64 images from 30 sequences across 16 cameras. At the threshold of 0.5 fixed before inference, all 15 animal-labeled sequences were detected and four empty-labeled sequences were flagged. Some flagged frames appear to contain animals despite empty labels; metrics retain the supplied labels. See [NEW_SITE_RESULTS.md](NEW_SITE_RESULTS.md) for checks, review and limitations.
+
 ### Labeled sequence pilot
 
 A follow-up run processed 42 images from 20 complete Snapshot Kruger sequences, split evenly between animal and empty labels. At threshold 0.2, it detected all ten animal-labeled sequences and flagged five empty-labeled sequences. At 0.5, it detected all ten with two false alarms. These are exploratory results against the supplied sequence labels, not a production threshold recommendation.

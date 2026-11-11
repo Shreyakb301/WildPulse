@@ -1,0 +1,349 @@
+{
+  "dataset": "Snapshot Enonkishu S1",
+  "source": "https://lilawildlife.blob.core.windows.net/lila-wildlife/snapshot-safari/ENO/SnapshotEnonkishu_S1_v1.0.json.zip",
+  "metadata_sha256": "380dbab5598e1468f74c8dd19e59c0424d61f6f26532a85a7a0a757b8c87de21",
+  "seed": "wildpulse-enonkishu-transfer-2026-11-11",
+  "per_class": 15,
+  "image_base": "https://lilawildlife.blob.core.windows.net/lila-wildlife/snapshot-safari/ENO/ENO_public/",
+  "spread_cameras": true,
+  "primary_threshold": 0.5,
+  "available_empty": 8767,
+  "available_animal": 4202,
+  "sequences": [
+    {
+      "seq_id": "ENO_S1#D03#1#1351",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/D03/D03_R1/ENO_S1_D03_R1_IMAG1583.JPG",
+        "ENO_S1/D03/D03_R1/ENO_S1_D03_R1_IMAG1584.JPG",
+        "ENO_S1/D03/D03_R1/ENO_S1_D03_R1_IMAG1585.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D05#1#1771",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/D05/D05_R1/ENO_S1_D05_R1_IMAG4271.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D06#1#1317",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/D06/D06_R1/ENO_S1_D06_R1_IMAG3925.JPG",
+        "ENO_S1/D06/D06_R1/ENO_S1_D06_R1_IMAG3926.JPG",
+        "ENO_S1/D06/D06_R1/ENO_S1_D06_R1_IMAG3927.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C05#1#667",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/C05/C05_R1/ENO_S1_C05_R1_IMAG1455.JPG",
+        "ENO_S1/C05/C05_R1/ENO_S1_C05_R1_IMAG1456.JPG",
+        "ENO_S1/C05/C05_R1/ENO_S1_C05_R1_IMAG1457.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D01#1#853",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/D01/D01_R1/ENO_S1_D01_R1_IMAG0856.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B03#1#616",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/B03/B03_R1/ENO_S1_B03_R1_IMAG1654.JPG",
+        "ENO_S1/B03/B03_R1/ENO_S1_B03_R1_IMAG1655.JPG",
+        "ENO_S1/B03/B03_R1/ENO_S1_B03_R1_IMAG1656.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D04#2#101",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/D04/D04_R2/ENO_S1_D04_R2_IMAG0211.JPG",
+        "ENO_S1/D04/D04_R2/ENO_S1_D04_R2_IMAG0212.JPG",
+        "ENO_S1/D04/D04_R2/ENO_S1_D04_R2_IMAG0213.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D02#1#90",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/D02/D02_R1/ENO_S1_D02_R1_IMAG0152.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B02#1#259",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/B02/B02_R1/ENO_S1_B02_R1_IMAG0659.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C04#2#204",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/C04/C04_R2/ENO_S1_C04_R2_IMAG0404.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B06#2#230",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/B06/B06_R2/ENO_S1_B06_R2_IMAG0434.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C02#1#79",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/C02/C02_R1/ENO_S1_C02_R1_IMAG0201.JPG",
+        "ENO_S1/C02/C02_R1/ENO_S1_C02_R1_IMAG0202.JPG",
+        "ENO_S1/C02/C02_R1/ENO_S1_C02_R1_IMAG0203.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B05#2#115",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/B05/B05_R2/ENO_S1_B05_R2_IMAG0279.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C03#1#105",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/C03/C03_R1/ENO_S1_C03_R1_IMAG0213.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#F06#1#29",
+      "animal_present": false,
+      "labels": [
+        "empty"
+      ],
+      "files": [
+        "ENO_S1/F06/F06_R1/ENO_S1_F06_R1_IMAG0083.JPG",
+        "ENO_S1/F06/F06_R1/ENO_S1_F06_R1_IMAG0084.JPG",
+        "ENO_S1/F06/F06_R1/ENO_S1_F06_R1_IMAG0085.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B06#2#109",
+      "animal_present": true,
+      "labels": [
+        "warthog"
+      ],
+      "files": [
+        "ENO_S1/B06/B06_R2/ENO_S1_B06_R2_IMAG0193.JPG",
+        "ENO_S1/B06/B06_R2/ENO_S1_B06_R2_IMAG0194.JPG",
+        "ENO_S1/B06/B06_R2/ENO_S1_B06_R2_IMAG0195.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D03#1#1182",
+      "animal_present": true,
+      "labels": [
+        "zebra"
+      ],
+      "files": [
+        "ENO_S1/D03/D03_R1/ENO_S1_D03_R1_IMAG1182.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B05#2#256",
+      "animal_present": true,
+      "labels": [
+        "warthog"
+      ],
+      "files": [
+        "ENO_S1/B05/B05_R2/ENO_S1_B05_R2_IMAG0660.JPG",
+        "ENO_S1/B05/B05_R2/ENO_S1_B05_R2_IMAG0661.JPG",
+        "ENO_S1/B05/B05_R2/ENO_S1_B05_R2_IMAG0662.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C04#2#34",
+      "animal_present": true,
+      "labels": [
+        "zebra"
+      ],
+      "files": [
+        "ENO_S1/C04/C04_R2/ENO_S1_C04_R2_IMAG0062.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C05#2#48",
+      "animal_present": true,
+      "labels": [
+        "impala"
+      ],
+      "files": [
+        "ENO_S1/C05/C05_R2/ENO_S1_C05_R2_IMAG0076.JPG",
+        "ENO_S1/C05/C05_R2/ENO_S1_C05_R2_IMAG0077.JPG",
+        "ENO_S1/C05/C05_R2/ENO_S1_C05_R2_IMAG0078.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D04#2#344",
+      "animal_present": true,
+      "labels": [
+        "wildebeest"
+      ],
+      "files": [
+        "ENO_S1/D04/D04_R2/ENO_S1_D04_R2_IMAG0866.JPG",
+        "ENO_S1/D04/D04_R2/ENO_S1_D04_R2_IMAG0867.JPG",
+        "ENO_S1/D04/D04_R2/ENO_S1_D04_R2_IMAG0868.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B02#1#73",
+      "animal_present": true,
+      "labels": [
+        "birdother",
+        "warthog"
+      ],
+      "files": [
+        "ENO_S1/B02/B02_R1/ENO_S1_B02_R1_IMAG0209.JPG",
+        "ENO_S1/B02/B02_R1/ENO_S1_B02_R1_IMAG0210.JPG",
+        "ENO_S1/B02/B02_R1/ENO_S1_B02_R1_IMAG0211.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D05#1#623",
+      "animal_present": true,
+      "labels": [
+        "zebra"
+      ],
+      "files": [
+        "ENO_S1/D05/D05_R1/ENO_S1_D05_R1_IMAG1511.JPG",
+        "ENO_S1/D05/D05_R1/ENO_S1_D05_R1_IMAG1512.JPG",
+        "ENO_S1/D05/D05_R1/ENO_S1_D05_R1_IMAG1513.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D02#1#117",
+      "animal_present": true,
+      "labels": [
+        "giraffe"
+      ],
+      "files": [
+        "ENO_S1/D02/D02_R1/ENO_S1_D02_R1_IMAG0219.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C03#1#86",
+      "animal_present": true,
+      "labels": [
+        "dikdik"
+      ],
+      "files": [
+        "ENO_S1/C03/C03_R1/ENO_S1_C03_R1_IMAG0174.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#E05#1#40",
+      "animal_present": true,
+      "labels": [
+        "baboon"
+      ],
+      "files": [
+        "ENO_S1/E05/E05_R1/ENO_S1_E05_R1_IMAG0116.JPG",
+        "ENO_S1/E05/E05_R1/ENO_S1_E05_R1_IMAG0117.JPG",
+        "ENO_S1/E05/E05_R1/ENO_S1_E05_R1_IMAG0118.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#C02#1#22",
+      "animal_present": true,
+      "labels": [
+        "gazellethomsons"
+      ],
+      "files": [
+        "ENO_S1/C02/C02_R1/ENO_S1_C02_R1_IMAG0054.JPG",
+        "ENO_S1/C02/C02_R1/ENO_S1_C02_R1_IMAG0055.JPG",
+        "ENO_S1/C02/C02_R1/ENO_S1_C02_R1_IMAG0056.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#B03#1#222",
+      "animal_present": true,
+      "labels": [
+        "dikdik"
+      ],
+      "files": [
+        "ENO_S1/B03/B03_R1/ENO_S1_B03_R1_IMAG0590.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#F06#1#46",
+      "animal_present": true,
+      "labels": [
+        "domesticanimal"
+      ],
+      "files": [
+        "ENO_S1/F06/F06_R1/ENO_S1_F06_R1_IMAG0134.JPG",
+        "ENO_S1/F06/F06_R1/ENO_S1_F06_R1_IMAG0135.JPG",
+        "ENO_S1/F06/F06_R1/ENO_S1_F06_R1_IMAG0136.JPG"
+      ]
+    },
+    {
+      "seq_id": "ENO_S1#D01#1#1531",
+      "animal_present": true,
+      "labels": [
+        "warthog"
+      ],
+      "files": [
+        "ENO_S1/D01/D01_R1/ENO_S1_D01_R1_IMAG1652.JPG",
+        "ENO_S1/D01/D01_R1/ENO_S1_D01_R1_IMAG1653.JPG",
+        "ENO_S1/D01/D01_R1/ENO_S1_D01_R1_IMAG1654.JPG"
+      ]
+    }
+  ]
+}

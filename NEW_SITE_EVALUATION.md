@@ -25,4 +25,4 @@ The original Kruger pilot remains unchanged. The configuration is in [enonkishu_
 
 ## Reporting
 
-Verify full sequence and frame membership, recompute metrics from exported predictions, and report TP, FP, TN, FN, recall, specificity, precision, and accuracy at the locked primary threshold. Review disagreement examples without silently changing labels. Report the small-sample and unknown training-overlap limitations. Results are pending until the full run completes.
+Verify full sequence and frame membership, recompute metrics from exported predictions, and report TP, FP, TN, FN, recall, specificity, precision, and accuracy at the locked primary threshold. Review disagreement examples without silently changing labels. Report the small-sample and unknown training-overlap limitations. The run is complete; see [NEW_SITE_RESULTS.md](NEW_SITE_RESULTS.md) for verified results and execution limitations.

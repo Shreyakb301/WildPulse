@@ -87,3 +87,20 @@ These are local workspace notes. No claim is made that they are saved to Google 
 - Wrote runtime `/content/WildPulse/PROJECT_LOG.md` (676 bytes) and `PROJECT_NOTES.md` (598 bytes), copied both into the result bundle. These runtime versions are concise summaries, not identical to these local files.
 - Colab showed a JavaScript output loading error (expired login or third-party cookies suggested by Colab). Download through Files failed with the same error. Reloaded the saved notebook to try to restore display/download functionality. Download not yet confirmed.
 - Reload restored the displayed contact sheet. Visually reviewed both rows: clear large-animal boxes in IMAG0029/0030; small uncertain boxes in later images. This is not a ground-truth annotation review. A second bundle download did not produce a confirmed download; Colab reported inability to connect to reCAPTCHA service. A contact-sheet media export also timed out, and browser control reset. The notebook's saved outputs survived the prior reload; the result archive remains unconfirmed locally.
+
+## 2026-11-11 — Enonkishu runtime interruption
+
+- First Enonkishu run visibly completed 15 of 30 sequences before Colab disconnected. No final metrics were obtained.
+- Reconnected diagnostics: evaluation root, checkpoint, final results and sparrow-engine were absent. The runtime had been replaced.
+- Reinstalled the same pinned engine and restarted deterministic preparation with the published configuration. Primary threshold remains 0.5.
+- Queued inference with notebook-visible JSON checkpoint download links after each complete sequence. Recovery has not yet been verified.
+- Rerun pending at this entry; interrupted-run predictions are excluded from reported results.
+
+### Enonkishu completion and correction
+
+- Reconnect revealed a complete 30-sequence evaluation in saved output and an existing final runtime JSON. Earlier statements that no completed result existed were provisional and superseded by this inspection.
+- Checkpoint wrapper failed with recursion after repeated execution; failed attempt excluded. Exact timing of earlier backend completion remains uncertain.
+- Exported completed file, verified SHA256, all 30 sequence records and 64 ordered frame memberships; recomputed every maximum and metric locally.
+- Primary 0.5: TP15 FP4 TN11 FN0, relative to supplied labels. Reviewed four disagreement frames; two appear to contain animals despite empty labels. No relabeling.
+- Saved local ZIP (1327770 bytes), SHA256 b929038a88dab0101f94d04a53ef78851882370bd471184c982235002aa4e1a4; integrity and prediction equality passed.
+- Added NEW_SITE_RESULTS.md, enonkishu_manifest.json and README summary. Images and runtime bundles excluded from Git.
