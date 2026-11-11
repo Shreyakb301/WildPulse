@@ -1,0 +1,10 @@
+{
+  "dataset": "Snapshot Enonkishu S1",
+  "metadata_url": "https://lilawildlife.blob.core.windows.net/lila-wildlife/snapshot-safari/ENO/SnapshotEnonkishu_S1_v1.0.json.zip",
+  "metadata_sha256": "380dbab5598e1468f74c8dd19e59c0424d61f6f26532a85a7a0a757b8c87de21",
+  "image_base": "https://lilawildlife.blob.core.windows.net/lila-wildlife/snapshot-safari/ENO/ENO_public/",
+  "seed": "wildpulse-enonkishu-transfer-2026-11-11",
+  "per_class": 15,
+  "spread_cameras": true,
+  "primary_threshold": 0.5
+}

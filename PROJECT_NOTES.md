@@ -26,6 +26,8 @@
 
 ## Latest verified state
 
+- Enonkishu new-site test prepared: 30 sequences (15 animal, 15 empty), 64 images, 16 camera locations. Primary threshold 0.5 fixed before inference. See NEW_SITE_EVALUATION.md. Results pending; model training overlap remains unknown.
+
 - Additional six-frame visual set: `evaluation/more_examples/another_example_set.jpg`; individual panels `example_1.jpg` through `example_6.jpg`. Uses existing pilot predictions, not a fresh benchmark.
 
 - Labeled pilot completed: all 20 sequences and 42 images scored. See EVALUATION_RESULTS.md and evaluation_manifest.json. At 0.2, TP=10 FP=5 TN=5 FN=0; at 0.5, TP=10 FP=2 TN=8 FN=0. Metrics are relative to supplied labels on this balanced pilot.

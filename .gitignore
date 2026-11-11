@@ -10,6 +10,7 @@ venv/
 sample_images/
 baseline_output/
 evaluation/
+evaluation_enonkishu/
 *.zip
 *.onnx
 *.pt

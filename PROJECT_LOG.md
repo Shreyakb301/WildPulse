@@ -1,5 +1,13 @@
 # WildPulse project log
 
+## 2026-11-11 — New site protocol locked
+
+- User authorized continuing to a larger independent test. Selected Snapshot Enonkishu, a different site from Kruger; no claim of model-training independence.
+- Verified official label reliability is sequence-level and inspected all metadata categories. Pinned metadata SHA256 `380dbab5598e1468f74c8dd19e59c0424d61f6f26532a85a7a0a757b8c87de21`.
+- Extended evaluate_sequences.py to support pinned dataset configurations and deterministic camera-spread sampling while preserving the original Kruger defaults. Local syntax, config parsing, and threshold boundary checks passed.
+- Prepared 30 complete sequences, 64 images, across all 16 camera locations. Each class uses 15 different locations. Primary threshold 0.5 is locked before inference; other thresholds are secondary checks.
+- Added NEW_SITE_EVALUATION.md and enonkishu_config.json. Full inference results are pending at this protocol entry.
+
 ## 2026-11-11 — Additional visual examples
 
 - User requested another image set to inspect. Prepared six different frames from the existing verified 42-image pilot: steenbok, elephant, spotted hyena, impala, and two empty-labeled sequences.
