@@ -1,5 +1,15 @@
 # WildPulse project log
 
+## 2026-11-10 — GitHub setup
+
+- User requested ongoing GitHub pushes and commit messages of three or four words using letters and spaces only. Saved these preferences in AGENTS.md and PROJECT_NOTES.md.
+- Reviewed README files in the user's LoadCheck, RepoLens, and DepotField repositories. Added README.md with the same plain-language approach and relevant feature, stack, setup, results, and engineering-record sections.
+- Created the public repository https://github.com/Shreyakb301/WildPulse after the user's explicit request.
+- Published README.md with `Add project readme` (b08afb6fd873d13aee58e3e6f2b0a63ed63403c4).
+- Published the baseline script, dependencies, ignore rules, project instructions, and project records with `Add wildlife baseline` (9540c6ee489967f9d9aaccff1cf680bb3ffe06d7). Verified the main branch update and fetched AGENTS.md back from GitHub.
+- Added a project-directory argument to the standalone script so the README's local setup command works. Python syntax validation passed; inference was not rerun for this documentation and repository setup.
+- Connected the local folder to the GitHub remote. GitHub CLI authentication was invalid, so publication used the connected GitHub app instead.
+
 ## 2026-11-10 — Colab setup continuation
 
 - Opened Wildlife.ipynb in connected Chrome. The supplied `authuser=1` selected an account without access; switching to the existing Colab account resolved access without changing sharing.
