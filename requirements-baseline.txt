@@ -1,0 +1,2 @@
+sparrow-engine==0.1.32
+opencv-python-headless

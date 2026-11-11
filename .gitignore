@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+sample_images/
+baseline_output/
+*.zip
+*.onnx
+*.pt
+*.pth
