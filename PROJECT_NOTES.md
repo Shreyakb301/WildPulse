@@ -26,6 +26,8 @@
 
 ## Latest verified state
 
+- Additional six-frame visual set: `evaluation/more_examples/another_example_set.jpg`; individual panels `example_1.jpg` through `example_6.jpg`. Uses existing pilot predictions, not a fresh benchmark.
+
 - Labeled pilot completed: all 20 sequences and 42 images scored. See EVALUATION_RESULTS.md and evaluation_manifest.json. At 0.2, TP=10 FP=5 TN=5 FN=0; at 0.5, TP=10 FP=2 TN=8 FN=0. Metrics are relative to supplied labels on this balanced pilot.
 - Local evaluation archive checksum verified: `10c23bf32fb5378b8d386c745202a3d2066a268a5346a92e137daf385228baac`. All metrics recomputed successfully.
 - Next validation should use a larger independent sample split by camera/location, with night, small-animal, partial-visibility, and obstruction cases. Do not choose an operational threshold from the pilot.

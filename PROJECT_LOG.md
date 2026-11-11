@@ -1,5 +1,12 @@
 # WildPulse project log
 
+## 2026-11-11 — Additional visual examples
+
+- User requested another image set to inspect. Prepared six different frames from the existing verified 42-image pilot: steenbok, elephant, spotted hyena, impala, and two empty-labeled sequences.
+- Downloaded selected originals from the official public source and drew the saved detection boxes without rerunning inference. Initial local Python HTTPS download failed because its default CA bundle was missing; retry with the installed certifi trust bundle succeeded with certificate verification enabled.
+- Created and visually inspected `evaluation/more_examples/another_example_set.jpg`, plus six individual annotated panels. Species names in titles come from dataset labels; model outputs remain broad animal labels. Empty examples had no retained animal detections at threshold 0.2.
+- Images remain in ignored local evaluation storage and are not committed.
+
 ## 2026-11-10 — Labeled sequence pilot completed
 
 - Finished every selected sequence: 20 sequences, 42 images, 15 camera locations, no skipped frames or reported inference failures.
