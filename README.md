@@ -16,7 +16,8 @@ These previews show image detection. Identity tracking between frames is not imp
 
 - **Processes each image independently.** Every image gets its own detection record and wall-clock timing.
 - **Shows what the model found.** Annotated previews put boxes around predicted animals, people, and vehicles.
-- **Saves usable results.** Outputs include a detailed JSON summary, MegaDetector-format JSON, and a CSV export.
+- **Saves usable results.** Outputs include a detailed JSON summary, MegaDetector-format JSON, a CSV export, and a self-contained review page.
+- **Records human review.** Mark outputs correct, incorrect or uncertain and add notes. Review exports reference the exact prediction file while leaving model outputs unchanged.
 - **Separates startup from repeat calls.** The script records the model download or cache check, the first detection call, and the following six timed calls.
 - **Keeps an engineering record.** Setup failures, fixes, observed results, and unresolved issues are recorded in the project logs.
 
@@ -34,13 +35,19 @@ These previews show image detection. Identity tracking between frames is not imp
 
 [Open the image review notebook in Colab](https://colab.research.google.com/github/Shreyakb301/WildPulse/blob/main/WildPulse_Image_Review.ipynb). Run setup, upload JPEG or PNG images (or load the included public example), detect, and download the ZIP. Each detection run has a fresh output directory, so confidence can be changed and rerun without mixing results. Cancelled uploads and failed runs clear the previous download target. The ZIP contains previews, JSON and CSV, and excludes original uploads. Confidence 0.5 is a review default, not a deployment recommendation.
 
-The workflow passed isolated checks for unreadable files, matching filenames with different extensions and output reuse. Four automated notebook state checks cover cancelled uploads, invalid file selection, repeated runs and failed-run download protection. Run them with `python3 -m unittest discover -s tests -v`. Its notebook has been syntax-checked for Python 3.11. Fresh Colab setup, real inference on one public example, preview generation and direct ZIP export were verified. The exported ZIP passed SHA256 and CRC checks locally. The public example has a pinned image checksum, and setup loads a fixed version of the reviewed runner. Automated file-picker upload and standard browser download were not confirmed; a direct link fallback is included for bundles up to 20 MB.
+The workflow passed isolated checks for unreadable files, matching filenames with different extensions and output reuse. Six automated checks cover review-page safety, ZIP inclusion and notebook states including cancelled uploads, invalid file selection, repeated runs and failed-run download protection. Run them with `python3 -m unittest discover -s tests -v`. Its notebook has been syntax-checked for Python 3.11. Fresh Colab setup, real inference on one public example, preview generation and direct ZIP export were verified. The exported ZIP passed SHA256 and CRC checks locally. The public example has a pinned image checksum, and setup loads a fixed version of the reviewed runner. Automated file-picker upload and standard browser download were not confirmed; a direct link fallback is included for bundles up to 20 MB.
 
 For an installed local environment:
 
 ```bash
 python run_images.py /path/to/images /path/to/new_output --threshold 0.5
 ```
+
+### Review the results
+
+Extract the downloaded ZIP and open `review.html` in your browser. Each image has an annotated preview, an assessment selector and a notes field. Mark the model output **correct**, **incorrect** or **uncertain**. Unreadable images remain visible in the review list.
+
+Click **Download review JSON** before closing or reloading the page. The exported `WildPulse_review.json` includes the checksum of the exact `results.json` being reviewed. Decisions stay in the page until downloaded; there is no automatic saving. The page works offline and does not alter model predictions. A visual assessment does not establish ground truth or automatically recalculate accuracy.
 
 ### Run in Google Colab
 

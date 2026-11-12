@@ -40,3 +40,9 @@ Six previews and result records were verified, and the ZIP passed SHA256 and CRC
 ## Current limits
 
 WildPulse performs image detection. It does not track identities between frames, identify species, or establish accuracy from these six unlabeled examples. Dataset labels may contain disagreements. File-picker upload still needs manual verification.
+
+## Trial 6 — Human review exports
+
+Added a self-contained review.html to generated result bundles. Each input image, including unreadable entries, has an assessment (not reviewed, correct, incorrect or uncertain) and notes. Exported WildPulse_review.json links to exact results.json bytes by SHA256. Original predictions remain unchanged; review decisions are not automatic ground-truth relabeling. Decisions must be downloaded before closing/reloading; no automatic persistence is claimed.
+
+Verified the real six-image saved predictions render in a local browser without rerunning inference. Selected uncertain and correct on two images, entered a test note and observed progress change to 2 of 6. Browser download saved a review JSON; exact decisions, note, six rows and prediction checksum verified locally. Six automated checks passed, covering script-safe filename handling, result immutability, empty-detection ZIP inclusion and notebook state transitions. Updated notebook runner pin and Python 3.11 syntax checked. Existing Colab file-picker automation limitation remains. Images, generated review page and test export stay ignored locally; PROJECT_LOG.md remains local.
